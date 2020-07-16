@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <h1>Select a song</h1>
+    <label class="file-upload">
+        <input type="file" name="songs" multiple/>
+        click here to upload songs
+    </label>
+    <audio src=""></audio>
+    <div id="button">
+        <button id="preview">Preview</button>
+        <button id="play">Play</button>
+        <button id="next">Next</button>
+    </div>
+</body>
+<script>
+    // let title = document.querySelector('h1');
+    // title.onclick = changeTitle
+
+    // function changeTitle () {
+    //     title.innerText = "Hi i am using the dom"
+    // }
+
+    // let songs = []
+    // let currentSong = 0
+
+    // const title = document.querySelector('h1');
+    // const input = document.querySelector('input')
+    // const preview = document.querySelector('#preview')
+    // const play = document.querySelector('#play')
+    // const next = document.querySelector('#next')
+    // const player = document.querySelector('audio')
+    // player.volume= 0.3;
+
+    // input.onchange = getSongs;
+    // // next.onclick = nextSong;
+    // // preview.onclick = prevSong;
+
+    // function getSongs () {
+    //     songs = event.target.files;
+    //     label.innerText = songs[currentSong].name.slice(0, -4)
+    //     title.innerText = "spoty fake player"
+    //     console.log(songs)
+    // }
+
+    // function playSong() {
+    //     let song = URL.createObjectURL(songs[currentSong])
+    //     lable.innerText = songs[currentSong].name.slice(0, -4)
+    //     player.setAttribute('src', song)
+    //     play.innerText = 'pause'
+    //     player.play()
+    // }
+
+    // function pause() {
+    //     play.innerText = 'play'
+    //     player.pause();
+    //     play.onclick = playCurrent
+
+    // }
+
+    // function playCurrent() {
+    //     play.innerText = 'pause'
+    //     player.play();
+    //     play.onclick = pause
+
+    // }
+
+    // function nextSong() {
+    //     currentSong++
+    //     playSong();
+    // }
+
+    // function prevSong() {
+    //     currentSong--
+    //     playSong();
+    // }
+</script>
+</html>

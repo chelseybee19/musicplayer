@@ -1,0 +1,28 @@
+* {
+    transition: all 2s;
+}
+body {
+    background-color:#1c1c1c;
+    color: white;
+    margin: 1rem;
+    overflow: hidden;
+    font-family: jost;
+}
+h1{
+    font-size: 70px;
+    border: solid 1px greenyellow;
+}
+input {
+    display: none;
+}
+.file-upload{
+    background-color: greenyellow;
+    cursor: pointer;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+#button{
+    text-align: center;
+}
